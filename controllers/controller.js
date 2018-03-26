@@ -1,6 +1,6 @@
-//var host = "https://tomcat.dept-info.crosemont.quebec"; //pour le live
+var host = "https://tomcat.dept-info.crosemont.quebec/Foodora-Comptabilite-API/comptabilite/transaction"; //pour le live
 //var host = "http://localhost:8080"; //pour le test en localhost.
-var host = "http://localhost:8080/Foodora-Compatibilite-API/compatibilite/transaction/";
+//var host = "http://localhost:8080/Foodora-Compatibilite-API/compatibilite/transaction/";
 var myApp = angular.module('myApp', []);
 
 //Définition d'un controleur pour le module myApp
