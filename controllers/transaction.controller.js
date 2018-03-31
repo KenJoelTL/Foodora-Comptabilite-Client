@@ -1,11 +1,10 @@
-var host = "https://tomcat.dept-info.crosemont.quebec/Foodora-Comptabilite-API/comptabilite/transaction/"; //pour le live
-//var host = "http://localhost:8080"; //pour le test en localhost.
-//var host = "http://localhost:8080/Foodora-Compatibilite-API/compatibilite/transaction/";
-var myApp = angular.module('myApp', []);
+//var host = "https://tomcat.dept-info.crosemont.quebec/Foodora-Comptabilite-API/comptabilite/transaction/"; //pour le live
 
+var myApp = angular.module("myApp");
 //Définition d'un controleur pour le module myApp
-myApp.controller('AppCtrl', ['$scope', '$http', function ($scope, $http) {
+myApp.controller('TransactionCtrl', ['$scope', '$http', function ($scope, $http) {
         //console.log("Coucou du controleur !");
+        var host = "http://localhost:8080/Foodora-Comptabilite-API/comptabilite/transaction/"; //pour le test en localhost.
 
         //fonction pour reinitialiser la transaction sélectionnée
         $scope.deselectionnerTransaction = function () {
